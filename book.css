@@ -1,0 +1,55 @@
+:root{
+    --orange:#ffa500;
+}
+/* booking style  start*/
+
+.book .row{
+    display: flex;
+    align-items: center;
+}
+
+.book .row .image{
+    flex: 1 1 35rem;
+}
+
+.book .row .image img{
+    width: 260%;
+}
+.book .row form {
+    flex: 1 1 50rem;
+    padding: 2rem;
+    border-radius: .5rem;
+}
+
+.book .row form .inputbox input{
+    padding: 1.5rem;
+    width: 50%;
+    border: .4rem solid #333;
+    font-size: 1.8rem;
+    color: #333;
+}
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    background:var(--orange);
+    color:#fff;
+    padding: .8rem 3rem;
+    cursor:pointer;
+    font-size: 1.5rem;
+    
+}
+
+.heading{
+    text-align: center;
+
+}
+.heading span{
+    font-size: 3.5rem;
+    background: #333;
+    color: #fff;
+    border-radius: .5rem;
+    padding: .2rem 1rem;
+}
+
+
+/* booking style end */  
